@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="check_for_the_main_scenarions_for_client_manager" timestamp="2020-02-21T14:40:16" time="27.216" tests="8" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="check for the main scenarions for client manager"/>
+      <property name="capabilities" value="chrome.80_0_3987_116.macosx"/>
+      <property name="file" value="./test/specs/clientManagerTest.js"/>
+    </properties>
+    <testcase classname="chrome.80_0_3987_116.macosx.check_for_the_main_scenarions_for_client_manager" name="First_scenario_Login_to_client_manager" time="8.475"/>
+    <testcase classname="chrome.80_0_3987_116.macosx.check_for_the_main_scenarions_for_client_manager" name="Second_scenario_Verify_Order_history" time="2.18"/>
+    <testcase classname="chrome.80_0_3987_116.macosx.check_for_the_main_scenarions_for_client_manager" name="Third_scenario_Verify_Client_List" time="2.954"/>
+    <testcase classname="chrome.80_0_3987_116.macosx.check_for_the_main_scenarions_for_client_manager" name="Fourth_scenario_Verify_Comission_history" time="2.227"/>
+    <testcase classname="chrome.80_0_3987_116.macosx.check_for_the_main_scenarions_for_client_manager" name="Fifth_scenario_Verify_Client_Ledger" time="2.587"/>
+    <testcase classname="chrome.80_0_3987_116.macosx.check_for_the_main_scenarions_for_client_manager" name="Check_for_a_match_row" time="2.466"/>
+    <testcase classname="chrome.80_0_3987_116.macosx.check_for_the_main_scenarions_for_client_manager" name="FILTER_BY_ACCOUNT_ID" time="3.89"/>
+    <testcase classname="chrome.80_0_3987_116.macosx.check_for_the_main_scenarions_for_client_manager" name="Verify_Position_summary" time="2.436"/>
+  </testsuite>
+</testsuites>
