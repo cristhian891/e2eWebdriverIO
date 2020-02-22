@@ -16,7 +16,5 @@ describe('webdriver.io page', () => {
         browser.switchWindow('WebDriver | Contact Us')
         const title = browser.getTitle();
         assert.equal(title, 'WebDriver | Contact Us')
-
-
     });
 });

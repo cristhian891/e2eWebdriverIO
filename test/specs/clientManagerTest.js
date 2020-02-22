@@ -1,7 +1,7 @@
 const chai = require('chai');
 const assert = chai.assert;
 
-describe('check for the main scenarions for client manager', () => {
+describe('check for the main scenarios for client manager', () => {
 
     const demoURL = 'https://demo.marketdatasystems.com/clientmanager/';
     const prdURL = 'https://www.marketdatasystems.com/clientmanager/';
@@ -27,8 +27,6 @@ describe('check for the main scenarions for client manager', () => {
 
         const logout = $('#btnLogout');
         logout.click();
-
-
     });
 
     it(' Second scenario: Verify Order history', () => {
@@ -51,7 +49,6 @@ describe('check for the main scenarions for client manager', () => {
 
         const logout = $('#btnLogout');
         logout.click();
-
     });
 
     it(' Third scenario: Verify Client List', () => {
@@ -74,8 +71,6 @@ describe('check for the main scenarions for client manager', () => {
 
         const logout = $('#btnLogout');
         logout.click();
-
-
     });
 
     it(' Fourth scenario: Verify Comission history', () => {
@@ -118,7 +113,7 @@ describe('check for the main scenarions for client manager', () => {
             return $('table').isExisting()
         }, 3000, 'expected text to be different after 5s');
 
-        assert.equal(browser.getTitle(), 'CM - Ledger History')
+        assert.equal(browser.getTitle(), 'CM - Ledger History');
 
         const logout = $('#btnLogout');
         logout.click();
@@ -160,7 +155,7 @@ describe('check for the main scenarions for client manager', () => {
         const loginButton = $('button');
         loginButton.click();
 
-        const orderClienListLink = $('#clientList .boxHeader');
+        const orderClientListLink = $('#clientList .boxHeader');
         orderClienListLink.click();
 
         browser.waitUntil(() => {
