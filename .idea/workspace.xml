@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efd1d2d6-038b-4e87-8205-4e92e39cbe26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/junit-reports/wdio-0-0-junit-reporter.log" beforeDir="false" afterPath="$PROJECT_DIR$/reports/junit-reports/wdio-0-0-junit-reporter.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/junit-reports/wdio-0-1-junit-reporter.log" beforeDir="false" afterPath="$PROJECT_DIR$/reports/junit-reports/wdio-0-1-junit-reporter.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/junit-reports/wdio-0-2-junit-reporter.log" beforeDir="false" afterPath="$PROJECT_DIR$/reports/junit-reports/wdio-0-2-junit-reporter.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/specs/clientManagerTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/clientManagerTest.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

@@ -145,7 +145,7 @@ describe('check for the main scenarios for client manager', () => {
 
     });
 
-    it('FILTER BY ACCOUNT ID', () => {
+    it('Filter by account ID', () => {
 
         browser.url(demoURL);
         const username = $('#username');
