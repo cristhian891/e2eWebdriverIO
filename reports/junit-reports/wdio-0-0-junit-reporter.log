@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Check_the_heigh_of_div_container_is_exactly_300px" timestamp="2020-02-23T17:15:29" time="1.818" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Test_different_functionalities_in_the_launcher" timestamp="2020-02-27T15:43:35" time="21.646" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
-      <property name="suiteName" value="Check the heigh of div container is exactly 300px"/>
-      <property name="capabilities" value="chrome.80_0_3987_116.macosx"/>
-      <property name="file" value="./test/specs/checkCSSTest.js"/>
+      <property name="suiteName" value="Test different functionalities in the launcher"/>
+      <property name="capabilities" value="chrome.80_0_3987_122.macosx"/>
+      <property name="file" value="./test/specs/launcher.js"/>
     </properties>
-    <testcase classname="chrome.80_0_3987_116.macosx.Check_the_heigh_of_div_container_is_exactly_300px" name="Verify_heigh_in_pixels" time="1.818"/>
+    <testcase classname="chrome.80_0_3987_122.macosx.Test_different_functionalities_in_the_launcher" name="Verifies_I_can_open_a_Japanese_Account" time="21.646"/>
   </testsuite>
 </testsuites>
