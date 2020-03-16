@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Test_different_functionalities_in_the_launcher" timestamp="2020-02-27T15:43:35" time="21.646" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Test_different_functionalities_in_the_launcher" timestamp="2020-03-12T14:06:14" time="24.247" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="Test different functionalities in the launcher"/>
-      <property name="capabilities" value="chrome.80_0_3987_122.macosx"/>
+      <property name="capabilities" value="chrome.80_0_3987_132.macosx"/>
       <property name="file" value="./test/specs/launcher.js"/>
     </properties>
-    <testcase classname="chrome.80_0_3987_122.macosx.Test_different_functionalities_in_the_launcher" name="Verifies_I_can_open_a_Japanese_Account" time="21.646"/>
+    <testcase classname="chrome.80_0_3987_132.macosx.Test_different_functionalities_in_the_launcher" name="Verifies_I_can_open_a_Japanese_Account" time="24.247"/>
   </testsuite>
 </testsuites>
