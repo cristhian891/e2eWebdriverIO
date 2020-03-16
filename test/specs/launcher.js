@@ -51,21 +51,22 @@ describe('Test different functionalities in the launcher', () => {
             const accountNames = $$('.list-container_item');
 
             for (let i = 0; i < accountNames.length; i++) {
+
                 if (accountNames[i].$('h3').getText().includes(account)) {
                     const buttonArray = accountNames[i].$$('.credentials-new_login-buttons__placeholder button span');
-                    console.log(buttonArray);
+
                     for (let j = 0; j < buttonArray.length; j++) {
                         let nameBtn = buttonArray[j].getText();
-                        console.log(nameBtn);
+
                         if (nameBtn === platform) {
                             buttonArray[j].click();
-                            browser.pause(4000)
+                            browser.pause(2000)
                         }
                     }
                 }
             }
         }
-        openPlatform('FX', 'WTP');
+        openPlatform('FX', 'PWT');
 
     });
 });
