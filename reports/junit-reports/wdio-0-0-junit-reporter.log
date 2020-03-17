@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Get_different_metrics_from_Strava_account" timestamp="2020-03-17T11:58:28" time="13.875" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Get_different_metrics_from_Strava_account" timestamp="2020-03-17T12:00:16" time="12.636" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="Get different metrics from Strava account"/>
       <property name="capabilities" value="chrome.80_0_3987_132.macosx"/>
       <property name="file" value="./test/specs/strava.js"/>
     </properties>
-    <testcase classname="chrome.80_0_3987_132.macosx.Get_different_metrics_from_Strava_account" name="Gets_Fitness_current_level" time="13.873"/>
+    <testcase classname="chrome.80_0_3987_132.macosx.Get_different_metrics_from_Strava_account" name="Gets_Fitness_current_level" time="12.635"/>
   </testsuite>
 </testsuites>

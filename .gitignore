@@ -1,4 +1,11 @@
 #node_module files
 
-*.xml
-*.log
+# User-specific stuff:
+**/.idea/workspace.xml
+**/.idea/tasks.xml
+**/.idea/dictionaries
+**/.idea/vcs.xml
+**/.idea/jsLibraryMappings.xml
+
+
+/reports/
