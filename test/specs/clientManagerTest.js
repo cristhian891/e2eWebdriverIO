@@ -156,7 +156,7 @@ describe('check for the main scenarios for client manager', () => {
         loginButton.click();
 
         const orderClientListLink = $('#clientList .boxHeader');
-        orderClienListLink.click();
+        orderClientListLink.click();
 
         browser.waitUntil(() => {
             return $('table').isExisting()
