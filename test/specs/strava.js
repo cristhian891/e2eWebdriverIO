@@ -23,7 +23,6 @@ describe('Get different metrics from Strava account', () => {
         currentFitness.waitForDisplayed();
         let fitness = currentFitness.getText();
         console.log(fitness);
-        //const navBar = $('.global-nav.nav-group');
 
     });
 });
