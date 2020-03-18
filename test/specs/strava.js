@@ -2,6 +2,7 @@ const chai = require('chai');
 const assert = chai.assert;
 
 describe('Get different metrics from Strava account', () => {
+    // This test gets a parameter from the website
     it('Gets Fitness current level ',  () => {
         browser.url('https://www.strava.com');
         const loginBtn = $('.btn.btn-default.btn-login');
@@ -23,6 +24,7 @@ describe('Get different metrics from Strava account', () => {
         currentFitness.waitForDisplayed();
         let fitness = currentFitness.getText();
         console.log(fitness);
+
 
     });
 });
