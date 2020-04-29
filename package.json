@@ -4,7 +4,8 @@
   "description": "WebdriveIO with mocha Automation framework",
   "main": "index.js",
   "scripts": {
-    "test": "wdio"
+    "test": "wdio",
+    "hours": "wdio wdio.conf.js --spec ./test/specs/logHours.js"
   },
   "keywords": [],
   "author": "Christian Preciado",

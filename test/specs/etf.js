@@ -17,12 +17,12 @@ describe('Get URL from save',() =>{
         console.log($('h1').getText());
 
         let tt = browser.execute( () => {
-
-           $('h1').css({color: 'red'})
+           //$('h1').css({color: 'red'})
             return $('h1').context.URL
         });
         console.log(tt)
         browser.pause(5000)
+
 
     })
 });
