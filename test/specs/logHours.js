@@ -3,8 +3,8 @@ const assert = chai.assert;
 
 describe.only('check for the main scenarios for client manager', () => {
     const JiraURL = 'https://jira2.iggroup.local/secure/TempoUserBoard!timesheet.jspa?v=1&filterIds=-1001&periodType=BILLING&periodView=PERIOD&period=0420';
-    const user = 'preciac';
-    const pass = 'Password123';
+    const user = '';
+    const pass = '';
     const month = 'May';
     const year = '20';
     const issue = 'QA-4';
